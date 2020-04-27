@@ -1,7 +1,7 @@
 ---
 title: SPARTA使用笔记与常见问题
 date: 2020-03-30
-tags: dsmc
+tags: DSMC
 ---
 记录一下在一台新机器上运行SPARTA程序可能需要经历的步骤，目前记录内容不全，随时更新。<!--more-->
 
