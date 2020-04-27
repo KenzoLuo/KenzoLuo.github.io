@@ -6,6 +6,8 @@ tags:
 - DSMC
 ---
 
+记录dsmcFoam的安装配置过程<!--more-->
+
 ## 安装openFOAM
 
 由于实验室的服务器大多不能连接外网，这里选择离线安装的方式。参考[官网给出的方法](https://openfoam.org/download/7-source/)
@@ -67,7 +69,7 @@ source $HOME/openfoam/OpenFOAM-7/etc/bashrc
 cd ~/openfoam/OpenFOAM-7
 ```
 
-然后开始编译，由于编译计算量较大，若有条件可以通过选项`-j 8`使其通过8个进程（当然其他进程数也是可以的）来并行加速这一过程。
+然后开始编译，由于编译计算量较大，若有条件可以通过选项`-j 8`使其通过8个进程（当然其他进程数也是可以的）来并行加速这一过程。（并行加速了时间也还是挺长的，先去吃个饭吧）
 
 ```shell
 ./Allwmake -j 8
