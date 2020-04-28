@@ -101,3 +101,9 @@ deploy:
   type: git
   repo: git@github.com:KenzoLuo/kenzoluo.github.io.git
   branch: master
+
+backup:
+    type: git
+    theme: coney,landscape,xxx
+    repository:
+       github: git@github.com:KenzoLuo/kenzoluo.github.io.git,hexo
